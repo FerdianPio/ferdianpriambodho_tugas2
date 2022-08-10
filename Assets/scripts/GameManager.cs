@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	int score = 0;
-	bool gameOver = true;
+	bool gameOver = false;
 
 	public bool GameOver { get { return !gameOver; } }
 
