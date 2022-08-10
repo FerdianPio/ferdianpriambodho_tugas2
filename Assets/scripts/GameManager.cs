@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour {
 			startPage.SetActive (false);
 			gameOverPage.SetActive (true);
 			countdownPage.SetActive (false);
+				gameOver = false;
 			break;
 		case PageState.Countdown:
 			startPage.SetActive (false);
